@@ -124,4 +124,5 @@ comment:
   behavior: default
   flags: null
   paths: null
-
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
