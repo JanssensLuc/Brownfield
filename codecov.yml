@@ -1,5 +1,4 @@
 codecov:
-  token: 545b9302-ec52-44fe-ad73-188ad3463b03
   branch: master
   bot: null
   ci: null
@@ -124,6 +123,5 @@ comment:
   behavior: default
   flags: null
   paths: null
-// Java Language 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
