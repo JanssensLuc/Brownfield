@@ -124,4 +124,6 @@ comment:
   behavior: default
   flags: null
   paths: null
-
+// Java Language 
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
