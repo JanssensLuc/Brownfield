@@ -20,8 +20,6 @@ public class Product implements Serializable {
 
 	private String name;
 
-	public Product() {}
-
 	public String getId() {
 		return this.id;
 	}
